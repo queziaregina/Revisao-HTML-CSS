@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    background: #C6D8AF;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1.8px;
+}
+
+nav {
+    display: flex;
+    gap: 7rem;
+}
+
+header a:hover{
+    color: #846B8A;
+    transform: scale(1.1);
+    transition: transform .6;
+}
