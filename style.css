@@ -1,14 +1,18 @@
-*{
+* {
     margin: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 header {
-    background: #C6D8AF;
+    background: #E9D6EC;
     height: 5rem;
     display: flex;
     justify-content: center;
     align-items: center;
+
+    position: fixed;
+    width: 100%;
+    top: 0;
 }
 
 nav a {
@@ -25,7 +29,20 @@ nav {
 }
 
 header a:hover{
-    color: #846B8A;
+    color: #63264A;
     transform: scale(1.1);
     transition: transform .6;
+}
+
+section {
+    border: 1px solid #63264A;
+    height: calc(110vh - 5rem);
+}
+
+main {
+    margin-top: 5rem;
+}
+
+section h2 {
+    text-align: center;
 }
