@@ -4,7 +4,7 @@
 }
 
 header {
-    background: #E9D6EC;
+    background: #928C6F;
     height: 5rem;
     display: flex;
     justify-content: center;
@@ -29,13 +29,13 @@ nav {
 }
 
 header a:hover{
-    color: #63264A;
+    color: #D3FAD6;
     transform: scale(1.1);
     transition: transform .6;
 }
 
 section {
-    border: 1px solid #63264A;
+    border: 1px solid #C3C48D;
     height: calc(110vh - 5rem);
 }
 
@@ -47,23 +47,37 @@ section h2 {
     text-align: center;
 }
 
+h2{
+    color: black;
+    text-decoration: underline;
+    background-color: #E2DBBE;
+}
+
 ul {
     color:black;
+    text-align: left;
+    line-height: 2.5rem;
+    list-style: circle;
+    text-decoration: underline;
+    background-color: #E2DBBE;
 }
 
 ol {
     color: black;
+    text-align: left;
+    line-height: 1rem;
+    background-color: #E2DBBE;
 }
 
 thead {
-    background-color: #c0abb7;
+    background-color: #EDEBA0;
     text-align: justify;
     color: black;
 }
 
 table {
     border: 1px solid black;
-    background-color: #E9D6EC;
+    background-color: #C3C48D;
     font-family: Arial, Helvetica, sans-serif;
     text-align: justify;
     margin: auto;
@@ -74,11 +88,12 @@ td{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1rem;
     color: black;
-    background-color: rgb(235, 202, 214);
+    background-color: #EDEBA0;
 }
 
 label {
     font-style:bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: #E9D6EC;
+    color: black;
+    background: #E2DBBE;
 }
